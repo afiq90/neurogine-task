@@ -44,14 +44,13 @@ class ProductDetailsViewController: UIViewController, UICollectionViewDelegate, 
             productStackView.isHidden = true
             loadingView.isHidden = false
             loadingView.startAnimating()
-        case .success
+        case .success:
             guard let product = viewModel.product else {return}
             
             loadingView.stopAnimating()
             loadingView.isHidden = true
             errorView.isHidden = true
             productStackView.isHidden = false
-            
             titleLabel.text = product.title
             priceLabel.text = String(format: "$%.2f", product.price)
             ratingLabel.text = String(format: "Rating: %.1f / 5", product.rating)
@@ -63,6 +62,11 @@ class ProductDetailsViewController: UIViewController, UICollectionViewDelegate, 
             productStackView.isHidden = true
             errorLabel.text = errMsg
             errorView.isHidden = false
+        case .idle:
+            loadingView.stopAnimating()
+            loadingView.isHidden = true
+            errorView.isHidden = true
+            productStackView.isHidden = true
         }
     }
     
