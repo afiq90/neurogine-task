@@ -129,7 +129,7 @@ class ProductListViewController: UIViewController, UITableViewDelegate, UITableV
         let position = scrollView.contentOffset.y + scrollView.bounds.height
         
         if position > scrollView.contentSize.height - threshold {
-            
+            viewModel.loadNextPageIfNeeded()
         }
     }
     
