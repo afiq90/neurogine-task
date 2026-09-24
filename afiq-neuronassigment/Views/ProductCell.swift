@@ -23,7 +23,7 @@ final class ProductCell: UITableViewCell {
     
     func configure(with product: Product) {
         titleLabel.text = product.title
-        priceLabel.text = String(format: "%.2f", product.price)
+        priceLabel.text = String(format: "$%.2f", product.price)
         productImageView.image = UIImage(systemName: "photo")
         
         guard let url = URL(string: product.thumbnail) else {
