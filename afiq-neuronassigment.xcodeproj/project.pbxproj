@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		88131E863064F4E3005542FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88131E673064F4E0005542FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88131E6E3064F4E0005542FD;
+			remoteInfo = "afiq-neuronassigment";
+		};
+		88131E903064F4E3005542FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88131E673064F4E0005542FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88131E6E3064F4E0005542FD;
+			remoteInfo = "afiq-neuronassigment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88131E6F3064F4E0005542FD /* afiq-neuronassigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "afiq-neuronassigment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88131E853064F4E3005542FD /* afiq-neuronassigmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "afiq-neuronassigmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88131E8F3064F4E3005542FD /* afiq-neuronassigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "afiq-neuronassigmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		88131E953064F4E3005542FD /* Exceptions for "afiq-neuronassigment" folder in "afiq-neuronassigment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 88131E6E3064F4E0005542FD /* afiq-neuronassigment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		88131E713064F4E0005542FD /* afiq-neuronassigment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				88131E953064F4E3005542FD /* Exceptions for "afiq-neuronassigment" folder in "afiq-neuronassigment" target */,
+			);
+			path = "afiq-neuronassigment";
+			sourceTree = "<group>";
+		};
+		88131E883064F4E3005542FD /* afiq-neuronassigmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "afiq-neuronassigmentTests";
+			sourceTree = "<group>";
+		};
+		88131E923064F4E3005542FD /* afiq-neuronassigmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "afiq-neuronassigmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88131E6C3064F4E0005542FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		88131E823064F4E3005542FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		88131E8C3064F4E3005542FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88131E663064F4E0005542FD = {
+			isa = PBXGroup;
+			children = (
+				88131E713064F4E0005542FD /* afiq-neuronassigment */,
+				88131E883064F4E3005542FD /* afiq-neuronassigmentTests */,
+				88131E923064F4E3005542FD /* afiq-neuronassigmentUITests */,
+				88131E703064F4E0005542FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88131E703064F4E0005542FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88131E6F3064F4E0005542FD /* afiq-neuronassigment.app */,
+				88131E853064F4E3005542FD /* afiq-neuronassigmentTests.xctest */,
+				88131E8F3064F4E3005542FD /* afiq-neuronassigmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88131E6E3064F4E0005542FD /* afiq-neuronassigment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88131E963064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigment" */;
+			buildPhases = (
+				88131E6B3064F4E0005542FD /* Sources */,
+				88131E6C3064F4E0005542FD /* Frameworks */,
+				88131E6D3064F4E0005542FD /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				88131E713064F4E0005542FD /* afiq-neuronassigment */,
+			);
+			name = "afiq-neuronassigment";
+			productName = "afiq-neuronassigment";
+			productReference = 88131E6F3064F4E0005542FD /* afiq-neuronassigment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88131E843064F4E3005542FD /* afiq-neuronassigmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88131E9B3064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigmentTests" */;
+			buildPhases = (
+				88131E813064F4E3005542FD /* Sources */,
+				88131E823064F4E3005542FD /* Frameworks */,
+				88131E833064F4E3005542FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88131E873064F4E3005542FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88131E883064F4E3005542FD /* afiq-neuronassigmentTests */,
+			);
+			name = "afiq-neuronassigmentTests";
+			productName = "afiq-neuronassigmentTests";
+			productReference = 88131E853064F4E3005542FD /* afiq-neuronassigmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88131E8E3064F4E3005542FD /* afiq-neuronassigmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88131E9E3064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigmentUITests" */;
+			buildPhases = (
+				88131E8B3064F4E3005542FD /* Sources */,
+				88131E8C3064F4E3005542FD /* Frameworks */,
+				88131E8D3064F4E3005542FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88131E913064F4E3005542FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88131E923064F4E3005542FD /* afiq-neuronassigmentUITests */,
+			);
+			name = "afiq-neuronassigmentUITests";
+			productName = "afiq-neuronassigmentUITests";
+			productReference = 88131E8F3064F4E3005542FD /* afiq-neuronassigmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88131E673064F4E0005542FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					88131E6E3064F4E0005542FD = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					88131E843064F4E3005542FD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 88131E6E3064F4E0005542FD;
+					};
+					88131E8E3064F4E3005542FD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 88131E6E3064F4E0005542FD;
+					};
+				};
+			};
+			buildConfigurationList = 88131E6A3064F4E0005542FD /* Build configuration list for PBXProject "afiq-neuronassigment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88131E663064F4E0005542FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 88131E703064F4E0005542FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88131E6E3064F4E0005542FD /* afiq-neuronassigment */,
+				88131E843064F4E3005542FD /* afiq-neuronassigmentTests */,
+				88131E8E3064F4E3005542FD /* afiq-neuronassigmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88131E6D3064F4E0005542FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		88131E833064F4E3005542FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		88131E8D3064F4E3005542FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88131E6B3064F4E0005542FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		88131E813064F4E3005542FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		88131E8B3064F4E3005542FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88131E873064F4E3005542FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88131E6E3064F4E0005542FD /* afiq-neuronassigment */;
+			targetProxy = 88131E863064F4E3005542FD /* PBXContainerItemProxy */;
+		};
+		88131E913064F4E3005542FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88131E6E3064F4E0005542FD /* afiq-neuronassigment */;
+			targetProxy = 88131E903064F4E3005542FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88131E973064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigment" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "afiq-neuronassigment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88131E983064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigment" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "afiq-neuronassigment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88131E993064F4E3005542FD /* Debug configuration for PBXProject "afiq-neuronassigment" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88131E9A3064F4E3005542FD /* Release configuration for PBXProject "afiq-neuronassigment" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88131E9C3064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigmentTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/afiq-neuronassigment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/afiq-neuronassigment";
+			};
+			name = Debug;
+		};
+		88131E9D3064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigmentTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/afiq-neuronassigment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/afiq-neuronassigment";
+			};
+			name = Release;
+		};
+		88131E9F3064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigmentUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "afiq-neuronassigment";
+			};
+			name = Debug;
+		};
+		88131EA03064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigmentUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afiq-neuronassigmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "afiq-neuronassigment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88131E6A3064F4E0005542FD /* Build configuration list for PBXProject "afiq-neuronassigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88131E993064F4E3005542FD /* Debug configuration for PBXProject "afiq-neuronassigment" */,
+				88131E9A3064F4E3005542FD /* Release configuration for PBXProject "afiq-neuronassigment" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		88131E963064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88131E973064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigment" */,
+				88131E983064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigment" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		88131E9B3064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88131E9C3064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigmentTests" */,
+				88131E9D3064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigmentTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		88131E9E3064F4E3005542FD /* Build configuration list for PBXNativeTarget "afiq-neuronassigmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88131E9F3064F4E3005542FD /* Debug configuration for PBXNativeTarget "afiq-neuronassigmentUITests" */,
+				88131EA03064F4E3005542FD /* Release configuration for PBXNativeTarget "afiq-neuronassigmentUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88131E673064F4E0005542FD /* Project object */;
+	validationLevel = 1;
+}
