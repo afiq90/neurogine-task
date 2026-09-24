@@ -117,6 +117,7 @@
                         <outlet property="loadingViewIndicator" destination="0lH-s6-JDX" id="e59-ij-QSm"/>
                         <outlet property="searchBar" destination="IhH-v2-VhC" id="DaL-cZ-IqN"/>
                         <outlet property="tableView" destination="dcB-Bf-E3u" id="efm-R5-lVh"/>
+                        <segue destination="VXi-pX-nlS" kind="show" identifier="ShowProductDetail" id="NkL-gQ-z4Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NML-UC-gkO" sceneMemberID="firstResponder"/>
@@ -128,20 +129,20 @@
             <objects>
                 <viewController id="VXi-pX-nlS" customClass="ProductDetailsViewController" customModule="neurogineassigment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3xo-WE-Vev">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyl-bf-dDD">
-                                <rect key="frame" x="0.0" y="118" width="393" height="616"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="675"/>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="u3b-r7-opi">
-                                        <rect key="frame" x="178" y="298" width="37" height="20"/>
+                                        <rect key="frame" x="178" y="327.66666666666669" width="37" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="1Fb-Ox-PUf"/>
                                         </constraints>
                                     </activityIndicatorView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTD-pw-oLd" userLabel="Error View">
-                                        <rect key="frame" x="56.666666666666657" y="228" width="280" height="160"/>
+                                        <rect key="frame" x="56.666666666666657" y="257.66666666666669" width="280" height="160"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unable to load product" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIH-Sw-i3Y" userLabel="Error Label">
                                                 <rect key="frame" x="16" y="20" width="248" height="20.333333333333329"/>
@@ -186,7 +187,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0S-6R-pGA">
-                                                <rect key="frame" x="0.0" y="43.333333333333343" width="361" height="28.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="43.333333333333329" width="361" height="28.666666666666671"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <color key="textColor" systemColor="systemBlueColor"/>
                                                 <nil key="highlightedColor"/>
@@ -198,13 +199,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5m1-GK-FFY" userLabel="Desc Label">
-                                                <rect key="frame" x="0.0" y="115.33333333333331" width="361" height="19.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="361" height="19.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gKQ-Vp-4h7" userLabel="detailsCV">
-                                                <rect key="frame" x="0.0" y="146.66666666666669" width="361" height="214"/>
+                                                <rect key="frame" x="0.0" y="146.66666666666666" width="361" height="213.99999999999997"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="214" id="HLR-6V-ALt"/>
