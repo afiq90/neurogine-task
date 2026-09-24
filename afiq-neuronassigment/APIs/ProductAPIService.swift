@@ -70,7 +70,7 @@ final class ProductAPIService {
     }
     
     private func request<T: Decodable>(url: URL, type: T.Type) async throws -> T {
-        let (Data, response) = try await URLSession.shared.data(from: url)
+        let (data, response) = try await URLSession.shared.data(from: url)
         guard let httpResponse = response as? HTTPURLResponse else {
             throw APIError.invalidResponse
         }
