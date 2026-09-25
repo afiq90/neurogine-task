@@ -25,10 +25,8 @@ Storyboard ViewController → ViewModel → ProductAPIService → DummyJSON
 
 Run the app
 
-The Xcode project has not been added yet. Once it is available:
-
 1. Open the `.xcodeproj` file in Xcode.
-2. Select the app scheme and an iOS 15-or-later simulator (or a connected device).
+2. Select the app scheme and an iOS 18-or-later simulator (or a connected device).
 3. Press **Run** (`⌘R`).
 
 No API key or additional service configuration is required. The app needs an internet connection to load products and images.
